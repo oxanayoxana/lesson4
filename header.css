@@ -16,7 +16,7 @@
 }
   
 @media screen and (min-width:599px) {
-  ul {display: none;}
+  ul li:not(:third-child) {display: none;}
 }
 
 #logo1 {
